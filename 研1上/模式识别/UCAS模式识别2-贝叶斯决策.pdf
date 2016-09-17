@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+
+
+
+
+
+	
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="styles/css.css" rel="stylesheet" type="text/css" />
+<link href="/library/jquery-ui-1.8.10.custom/css/ui-lightness/jquery-ui-1.8.10.custom.css" rel="stylesheet" type="text/css" />
+<link href="/library/jquery-ui-1.8.10.custom/development-bundle/themes/base/jquery.ui.all.css" rel="stylesheet" type="text/css" />
+<link href="/library/jquery-ui-1.8.10.custom/development-bundle/demos/demos.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" language="javascript" src="/library/js/jquery-1.5.1.min.js"></script>
+<script type="text/javascript" language="javascript" src="/library/jquery-ui-1.8.10.custom/js/jquery-ui-1.8.10.custom.min.js"></script>
+
+<script type="text/javascript" language="javascript" src="outerIndex.js"></script>
+<script type="text/javascript" language="JavaScript" src="/library/js/headscripts.js"></script>
+<title>课程网站</title>
+</head>
+<body>
+<form id="frm" name="frm" method="post" action="main.do?method=gotoOuterMain" target="mainContent" style="display:none">
+<input type="hidden" name="type" value="term"/>
+<input type="hidden" name="siteId" value="数学科学学院"/>
+<input type="hidden" name="searchText"/>
+<input type="hidden" name="termEid"/>
+</form>
+
+
+<div class="header" style="text-align: center">
+    <div class="header1004">
+        <div class="logo"></div>
+        <ul class="search">        	
+            <li class="input"><input name="" type="text" id="searchId" /></li>
+            <li class="searchbtn"><a href="javascript:;" onclick="goSearchPage();return false;" title="搜索">搜索</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<table width="1009" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="39" align="left" valign="top" background="images/daohang_bg.gif"><table width="100%" height="35" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="left" valign="top">
+		<div>
+			<div style="float:left">
+			<ul class="menuerji">
+		      <li><a id="term" href="javascript:;" onclick="leftGoMainPage('term');return false;" title="本学期课程" class='hover'>学期课程</a></li>
+		      <li><a id="click" href="javascript:;" onclick="leftGoMainPage('click');return false;" title="点击量排行" >点击量排行</a></li>
+		      <li><a id="resource" href="javascript:;" onclick="leftGoMainPage('resource');return false;" title="资源量排行" >资源量排行</a></li>
+			  <li><a id="summer" href="javascript:;" onclick="leftGoMainPage('summer');return false;" title="夏季课程" >夏季课程</a></li>
+		      <li><a id="program" href="javascript:;" onclick="leftGoMainPage('program');return false;" title="Program-10" >Program-10</a></li>
+			  <li><a id="active" href="javascript:;" onclick="leftGoMainPage('active');return false;" title="活跃用户" >活跃用户</a></li>			  
+		    </ul>		    
+		  </div>
+		  <div style="float:right; margin-top: 10px;  font-size: 12px;" class="xuanzeyang"><a href="javascript:;" onclick="selectTerm();return false;">选择学期</a></div>
+		  </div></td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td align="left" valign="top">
+	    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+	      <tr>
+	        <td width="22%" align="left" valign="top">
+		        <table width="222" border="0" cellspacing="0" cellpadding="0">
+		          <tr>
+		            <td align="left" valign="top"><table width="221" border="0" cellpadding="10" cellspacing="0" class="youce_bg1">
+		              <tr>
+		                <td height="505" align="left" valign="top">
+							<div>
+								<ul class="youce">
+								
+							      <li><a id="数学科学学院" name="siteA" href="javascript:;" onclick="topGoMainPage('数学科学学院');return false;" title="数学科学学院" class='hover'>数学科学学院</a></li>
+							    
+							      <li><a id="物理学院" name="siteA" href="javascript:;" onclick="topGoMainPage('物理学院');return false;" title="物理学院" >物理学院</a></li>
+							    
+							      <li><a id="化学与化工学院" name="siteA" href="javascript:;" onclick="topGoMainPage('化学与化工学院');return false;" title="化学与化工学院" >化学与化工学院</a></li>
+							    
+							      <li><a id="材料科学与光电技术学院" name="siteA" href="javascript:;" onclick="topGoMainPage('材料科学与光电技术学院');return false;" title="材料科学与光电技术学院" >材料科学与光电技术学院</a></li>
+							    
+							      <li><a id="地球科学学院" name="siteA" href="javascript:;" onclick="topGoMainPage('地球科学学院');return false;" title="地球科学学院" >地球科学学院</a></li>
+							    
+							      <li><a id="资源与环境学院" name="siteA" href="javascript:;" onclick="topGoMainPage('资源与环境学院');return false;" title="资源与环境学院" >资源与环境学院</a></li>
+							    
+							      <li><a id="生命科学学院" name="siteA" href="javascript:;" onclick="topGoMainPage('生命科学学院');return false;" title="生命科学学院" >生命科学学院</a></li>
+							    
+							      <li><a id="人文学院" name="siteA" href="javascript:;" onclick="topGoMainPage('人文学院');return false;" title="人文学院" >人文学院</a></li>
+							    
+							      <li><a id="管理学院" name="siteA" href="javascript:;" onclick="topGoMainPage('管理学院');return false;" title="管理学院" >管理学院</a></li>
+							    
+							      <li><a id="外语系" name="siteA" href="javascript:;" onclick="topGoMainPage('外语系');return false;" title="外语系" >外语系</a></li>
+							    
+							      <li><a id="公共政策与管理学院" name="siteA" href="javascript:;" onclick="topGoMainPage('公共政策与管理学院');return false;" title="公共政策与管理学院" >公共政策与管理学院</a></li>
+							    
+							      <li><a id="体育教研室" name="siteA" href="javascript:;" onclick="topGoMainPage('体育教研室');return false;" title="体育教研室" >体育教研室</a></li>
+							    
+							      <li><a id="计算机与控制学院" name="siteA" href="javascript:;" onclick="topGoMainPage('计算机与控制学院');return false;" title="计算机与控制学院" >计算机与控制学院</a></li>
+							    
+							      <li><a id="本科生部" name="siteA" href="javascript:;" onclick="topGoMainPage('本科生部');return false;" title="本科生部" >本科生部</a></li>
+							    
+							      <li><a id="工程管理与信息技术学院" name="siteA" href="javascript:;" onclick="topGoMainPage('工程管理与信息技术学院');return false;" title="工程管理与信息技术学院" >工程管理与信息技术学院</a></li>
+							    
+							      <li><a id="电子电气与通信工程学院" name="siteA" href="javascript:;" onclick="topGoMainPage('电子电气与通信工程学院');return false;" title="电子电气与通信工程学院" >电子电气与通信工程学院</a></li>
+							    
+							      <li><a id="中丹学院" name="siteA" href="javascript:;" onclick="topGoMainPage('中丹学院');return false;" title="中丹学院" >中丹学院</a></li>
+							    
+							      <li><a id="华大教育中心" name="siteA" href="javascript:;" onclick="topGoMainPage('华大教育中心');return false;" title="华大教育中心" >华大教育中心</a></li>
+							    
+							      <li><a id="天文与空间科学学院" name="siteA" href="javascript:;" onclick="topGoMainPage('天文与空间科学学院');return false;" title="天文与空间科学学院" >天文与空间科学学院</a></li>
+							    
+							      <li><a id="工程科学学院" name="siteA" href="javascript:;" onclick="topGoMainPage('工程科学学院');return false;" title="工程科学学院" >工程科学学院</a></li>
+							    
+							      <li><a id="存济医学院" name="siteA" href="javascript:;" onclick="topGoMainPage('存济医学院');return false;" title="存济医学院" >存济医学院</a></li>
+							    
+							      <li><a id="微电子学院" name="siteA" href="javascript:;" onclick="topGoMainPage('微电子学院');return false;" title="微电子学院" >微电子学院</a></li>
+							    
+							      <li><a id="未来技术学院" name="siteA" href="javascript:;" onclick="topGoMainPage('未来技术学院');return false;" title="未来技术学院" >未来技术学院</a></li>
+							    
+							      <li><a id="网络空间安全学院" name="siteA" href="javascript:;" onclick="topGoMainPage('网络空间安全学院');return false;" title="网络空间安全学院" >网络空间安全学院</a></li>
+							    
+							    </ul>
+							  </div></td>
+		              </tr>
+		            </table></td>
+		          </tr>
+		          <tr>
+		            <td align="left" valign="top"><table width="100%" border="0" cellpadding="0" cellspacing="0" class="youce_bg2">
+		              <tr>
+		                <td>&nbsp;</td>
+		              </tr>
+		            </table></td>
+		          </tr>
+		        </table></td>
+	        <td width="78%" align="left" valign="top" height="100%"><iframe height="100%" width="100%" id="mainContent" name="mainContent" frameborder="0" scrolling="auto"></iframe></td>
+	  	  </tr>
+		</table>
+   </td>
+  </tr>
+</table>
+
+
+<div id="dialog-form" title="请选择学期" style="display:none">
+	<div>
+		<table border="0" cellpadding="5" cellspacing="0" width="100%">
+			
+			<tr>
+				<td width="20px"><input id="radio_2017 02" type="radio" name="termEid" value="2017 02" /></td>
+				<td><label for="radio_2017 02">2016-2017学年（春）第二学期</label></td>
+			</tr>
+			
+			<tr>
+				<td width="20px"><input id="radio_2016 04" type="radio" name="termEid" value="2016 04" /></td>
+				<td><label for="radio_2016 04">2016-2017学年（秋）第一学期</label></td>
+			</tr>
+			
+			<tr>
+				<td width="20px"><input id="radio_2016 03" type="radio" name="termEid" value="2016 03" /></td>
+				<td><label for="radio_2016 03">2015-2016学年（夏）第三学期</label></td>
+			</tr>
+			
+			<tr>
+				<td width="20px"><input id="radio_2016 02" type="radio" name="termEid" value="2016 02" /></td>
+				<td><label for="radio_2016 02">2015-2016学年（春）第二学期</label></td>
+			</tr>
+			
+			<tr>
+				<td width="20px"><input id="radio_2015 04" type="radio" name="termEid" value="2015 04" /></td>
+				<td><label for="radio_2015 04">2015-2016学年（秋）第一学期</label></td>
+			</tr>
+			
+			<tr>
+				<td width="20px"><input id="radio_2015 03" type="radio" name="termEid" value="2015 03" /></td>
+				<td><label for="radio_2015 03">2014-2015学年（夏）第三学期</label></td>
+			</tr>
+			
+			<tr>
+				<td width="20px"><input id="radio_2015 02" type="radio" name="termEid" value="2015 02" /></td>
+				<td><label for="radio_2015 02">2014-2015学年（春）第二学期</label></td>
+			</tr>
+			
+			<tr>
+				<td width="20px"><input id="radio_2014 04" type="radio" name="termEid" value="2014 04" /></td>
+				<td><label for="radio_2014 04">2014-2015学年（秋）第一学期</label></td>
+			</tr>
+			
+			<tr>
+				<td width="20px"><input id="radio_2014 03" type="radio" name="termEid" value="2014 03" /></td>
+				<td><label for="radio_2014 03">2013-2014学年（夏）第三学期</label></td>
+			</tr>
+			
+			<tr>
+				<td width="20px"><input id="radio_2014 02" type="radio" name="termEid" value="2014 02" /></td>
+				<td><label for="radio_2014 02">2013-2014学年（春）第二学期</label></td>
+			</tr>
+			
+			<tr>
+				<td width="20px"><input id="radio_2013 04" type="radio" name="termEid" value="2013 04" /></td>
+				<td><label for="radio_2013 04">2013-2014学年（秋）第一学期</label></td>
+			</tr>
+			
+			<tr>
+				<td width="20px"><input id="radio_2013 03" type="radio" name="termEid" value="2013 03" /></td>
+				<td><label for="radio_2013 03">2012-2013学年（夏）第三学期</label></td>
+			</tr>
+			
+			<tr>
+				<td width="20px"><input id="radio_2013 02" type="radio" name="termEid" value="2013 02" /></td>
+				<td><label for="radio_2013 02">2012-2013学年（春）第二学期</label></td>
+			</tr>
+			
+			<tr>
+				<td width="20px"><input id="radio_2012 04" type="radio" name="termEid" value="2012 04" /></td>
+				<td><label for="radio_2012 04">2012-2013学年（秋）第一学期</label></td>
+			</tr>
+			
+			<tr>
+				<td width="20px"><input id="radio_2012 03" type="radio" name="termEid" value="2012 03" /></td>
+				<td><label for="radio_2012 03">2011-2012学年（夏）第三学期</label></td>
+			</tr>
+			
+			<tr>
+				<td width="20px"><input id="radio_2012 02" type="radio" name="termEid" value="2012 02" /></td>
+				<td><label for="radio_2012 02">2011-2012学年（春）第二学期</label></td>
+			</tr>
+			
+			<tr>
+				<td width="20px"><input id="radio_2011 04" type="radio" name="termEid" value="2011 04" /></td>
+				<td><label for="radio_2011 04">2011-2012学年（秋）第一学期</label></td>
+			</tr>
+			
+			<tr>
+				<td width="20px"><input id="radio_2011 03" type="radio" name="termEid" value="2011 03" /></td>
+				<td><label for="radio_2011 03">2010-2011学年（夏）第三学期</label></td>
+			</tr>
+			
+			<tr>
+				<td width="20px"><input id="radio_2011 02" type="radio" name="termEid" value="2011 02" /></td>
+				<td><label for="radio_2011 02">2010-2011学年（春）第二学期</label></td>
+			</tr>
+			
+			<tr>
+				<td width="20px"><input id="radio_2010 04" type="radio" name="termEid" value="2010 04" /></td>
+				<td><label for="radio_2010 04">2010-2011学年（秋）第一学期</label></td>
+			</tr>
+			
+			<tr>
+				<td width="20px"><input id="radio_2010 03" type="radio" name="termEid" value="2010 03" /></td>
+				<td><label for="radio_2010 03">2009-2010学年（夏）第三学期</label></td>
+			</tr>
+			
+			<tr>
+				<td width="20px"><input id="radio_2010 02" type="radio" name="termEid" value="2010 02" /></td>
+				<td><label for="radio_2010 02">2009-2010学年（春）第二学期</label></td>
+			</tr>
+			
+			<tr>
+				<td width="20px"><input id="radio_2009 04" type="radio" name="termEid" value="2009 04" /></td>
+				<td><label for="radio_2009 04">2009-2010学年（秋）第一学期</label></td>
+			</tr>
+			
+			<tr>
+				<td width="20px"><input id="radio_2009 03" type="radio" name="termEid" value="2009 03" /></td>
+				<td><label for="radio_2009 03">2008-2009学年（夏）第三学期</label></td>
+			</tr>
+			
+			<tr>
+				<td width="20px"><input id="radio_2009 02" type="radio" name="termEid" value="2009 02" /></td>
+				<td><label for="radio_2009 02">2008-2009学年（春）第二学期</label></td>
+			</tr>
+			
+			<tr>
+				<td width="20px"><input id="radio_2009 01" type="radio" name="termEid" value="2009 01" /></td>
+				<td><label for="radio_2009 01">2008-2009学年（冬）学期</label></td>
+			</tr>
+			
+		</table>
+	</div>
+</div>
+</body>
+<script type="text/javascript" language="javascript">
+function init(){
+	var frm = document.getElementById("frm");
+	frm.termEid.value='2016 04';
+	frm.submit();
+}
+init();
+</script>
+
+</html>

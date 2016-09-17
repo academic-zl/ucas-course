@@ -127,7 +127,7 @@ void main(void)		/* This really IS void, no error here. */
 	mem_init(main_memory_start,memory_end);
 	trap_init();
 	blk_dev_init();
-	chr_dev_init();
+	chr_ddev_init();
 	tty_init();
 	time_init();
 	sched_init();
