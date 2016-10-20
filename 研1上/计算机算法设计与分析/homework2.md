@@ -22,7 +22,7 @@ $dp[i]=max(dp[i-2]+nums[i-1],dp[i-1])$
 
 ### Pseudo-code
 
-1. 
+#### 1.
 ```java
 public class Solution {
     /**
@@ -44,7 +44,7 @@ public class Solution {
 }
 ```
 
-2.
+#### 2.
 ```java
 public class Solution {
     /**
